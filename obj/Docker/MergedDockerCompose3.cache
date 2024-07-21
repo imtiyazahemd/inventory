@@ -1,0 +1,33 @@
+name: dockercompose12497429532612193549
+services:
+  inventorydetails:
+    build:
+      context: D:\API\InventoryDetails
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        published: "5009"
+        protocol: tcp
+  inventorydetails2:
+    build:
+      context: D:\API\InventoryDetails
+      dockerfile: Dockerfile
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5010"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose12497429532612193549_default
