@@ -11,3 +11,15 @@
 /LoadBalancer/obj/Release/net8.0/LoadBalancer.AssemblyInfoInputs.cache
 /LoadBalancer/obj/Debug/net8.0/LoadBalancer.AssemblyInfoInputs.cache
 /LoadBalancer/obj/Debug/net8.0/LoadBalancer.AssemblyInfo.cs
+/InventoryDetails/bin/Debug/net8.0/InventoryDetails.pdb
+/InventoryDetails/bin/Debug/net8.0/InventoryDetails.exe
+/InventoryDetails/bin/Debug/net8.0/InventoryDetails.dll
+/InventoryDetails/obj/Debug/net8.0/ref/InventoryDetails.dll
+/InventoryDetails/obj/Debug/net8.0/refint/InventoryDetails.dll
+/InventoryDetails/obj/Debug/net8.0/apphost.exe
+/InventoryDetails/obj/Debug/net8.0/InventoryDetails.AssemblyInfo.cs
+/InventoryDetails/obj/Debug/net8.0/InventoryDetails.AssemblyInfoInputs.cache
+/InventoryDetails/obj/Debug/net8.0/InventoryDetails.csproj.FileListAbsolute.txt
+/InventoryDetails/obj/Debug/net8.0/InventoryDetails.dll
+/InventoryDetails/obj/Debug/net8.0/InventoryDetails.pdb
+*.json
