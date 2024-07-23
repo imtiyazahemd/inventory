@@ -4,3 +4,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+/InventoryDetails/obj/Debug/net8.0/InventoryDetails.AssemblyInfo.cs
+*.json
+/InventoryDetails/obj/Debug/net8.0/InventoryDetails.AssemblyInfoInputs.cache
+*.cs
+*.editorconfig
+*.cache
