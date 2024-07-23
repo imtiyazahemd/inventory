@@ -28,5 +28,11 @@ namespace InventoryDetails.Controllers
         {
             return await _context.Inventory.ToListAsync();
         }
+
+        [HttpGet("GetItems_forUpdate")]
+        public async Task<ActionResult<IEnumerable<Inventory>>> GetItems_forUpdate1()
+        {
+            return await _context.Inventory.ToListAsync();
+        }
     }
 }
